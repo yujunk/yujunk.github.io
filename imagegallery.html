@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Image Gallery </title>
+	<link href="gallerystyle.css" rel="stylesheet"/>
+
+</head>
+<body>
+
+	<h1> Interactive Image Gallery </h1>
+
+	<!-- Gallery Items -->
+	<ul class="gallery">
+		<li class="gallery-item" alt="lakedistrict_2017.JPG">
+			<img src= "lakedistrict_2017.JPG"/>
+			<p class="caption"> Lake District, Scotland 2017 </p>
+		</li>
+		<li class="gallery-item" alt="belfast_2016.JPG">
+			<img src= "belfast_2016.JPG"/>
+			<p class="caption"> Belfast, Northern Ireland 2016 </p>
+		</li>
+		<li class="gallery-item" alt="london_2016.JPG">
+			<img src= "london_2016.JPG"/>
+			<p class="caption"> Farm in London, England 2016 </p>
+		</li>
+		<li class="gallery-item" alt="mestia_2017.JPG">
+			<img src= "mestia_2017.JPG"/>
+			<p class="caption"> Mestia, Georgia 2017 </p>
+		</li>
+		<li class="gallery-item" alt="snowdonia_2017.JPG">
+			<img src= "snowdonia_2017.JPG"/>
+			<p class="caption"> Snowdonia, Wales 2017 </p>
+		</li>
+		<li class="gallery-item" alt="kathmandu_2017.JPG">
+			<img src= "kathmandu_2017.JPG"/>
+			<p class="caption"> Kathmandu, Nepal 2017 </p>
+		</li>
+		<li class="gallery-item" alt="walkietalkie_2017.JPG">
+			<img src= "walkietalkie_2017.JPG"/>
+			<p class="caption"> Walkie Talkie in London, England 2017 </p>
+		</li>
+		<li class="gallery-item" alt="punakhadzong_2017.JPG">
+			<img src= "snowdonia_2017.JPG"/>
+			<p class="caption"> Punakha Dzong, Bhutan 2017 </p>
+		</li>
+		<li class="gallery-item" alt="penang_2017.JPG">
+			<img src= "penang_2017.JPG"/>
+			<p class="caption"> Second Bridge, Penang, Malaysia 2017 </p>
+		</li>
+		<li class="gallery-item" alt="hongkong_2017.JPG">
+			<img src= "hongkong_2017.JPG"/>
+			<p class="caption"> Lippo in Hong Kong 2017 </p>
+		</li>
+		<li class="gallery-item" alt="dochulapass_2017.JPG">
+			<img src= "dochulapass_2017.JPG"/>
+			<p class="caption"> Dochula Pass, Bhutan 2017 </p>
+		</li>
+
+	</ul>
+
+	<!-- Lightbox here -->
+	<div class="lightbox hidden">
+		<div class = "lightbox-contents">
+			<div class = "lightbox-controls">
+				<a href="#" class="lightbox-close"> Close </a>
+				<a href="#" class="lightbox-prev"> Prev </a>
+				<a href="#" class="lightbox-next"> Next </a>
+			</div>
+
+			<div class="lightbox-image">
+				<img src="lakedistrict_2017.JPG" />
+				<p class="caption"> Snowdonia, Wales 2017 </p>
+			</div>
+		</div>
+	</div>
+
+<!-- 1. How to style gallery -->
+<!-- 2. How to style lightbox  -->
+<!-- 3. How to show/hide lightbox -->
+<script src="galleryscript.js">
+</script>
+
+</body>
+</html>
